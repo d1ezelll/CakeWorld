@@ -1,0 +1,590 @@
+/* Header styles start */
+
+header {
+    font-family: Montserrat;
+    color: aliceblue;
+}
+
+.header-container {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 20px 0;
+}
+
+.header-title {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.header-right-side {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header-adres {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-adres-title {
+    margin-left: 1vw;
+}
+
+.header-adres-text {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.header-phone {
+    margin-left: 4vw;
+    display: flex;
+}
+
+.header-phone-text {
+    margin-left: 1vw;
+}
+
+.header-phone-number {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-phone-time {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+/* Header styles end */
+
+
+
+/* Intro styles start */
+
+.intro {
+    position: relative;
+    min-height: 120vh;
+    background-image: url(../src/main.png);
+    background-repeat: no-repeat;
+    font-family: Montserrat;
+    color: aliceblue;
+}
+
+.intro-container {
+    position: absolute;
+    top: 307px;
+    left: 307px;
+    display: flex;
+    flex-direction: column;
+    max-width: 647px;
+}
+
+
+.intro-title-text {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.intro-subtitle-text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-top: 20px;
+}
+
+.intro-title-bottom {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.intro-title-button-btn {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(254, 216, 76, 1);
+    border-radius: 8px;
+    padding: 20px 30px 20px 30px;
+}
+
+.intro-title-bottom-text {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+/* Intro styles end */
+
+
+/* Catalog styles start */
+
+.catalog {
+    position: relative;
+    min-height: 120vh;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 30px 20px;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+}
+
+.catalog-title {
+    font-size: 48px;
+    font-weight: 500;
+    color: rgba(46, 54, 62, 1);
+}
+
+.catalog-list-wrapper {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-top img {
+    width: 380px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-bottom {
+    max-width: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card-subtitle {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card-price {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.card-button {
+    max-width: 100px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(254, 216, 76, 1);
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.card-button:hover {
+    background: rgba(0,0,0,0);
+	box-shadow: inset 0 0 0 3px #f3ff52;
+}
+
+/* Catalog styles end */
+
+/* Order styles start */
+
+.order {
+    position: relative;
+    min-height: 1352px;
+    background-color: rgba(8, 17, 48, 1);
+    font-family: Montserrat;
+}
+
+.order-center {
+    min-height: 55vh;
+}
+
+.order-phone {
+    max-width: 1090px;
+    position: absolute;
+    top: 330px;
+    left: -104px;
+}
+
+.order-card {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 495px;
+    top: 439px;
+    left: 1070px;
+    color: rgba(255, 255, 255, 1);
+    row-gap: 40px;
+}
+
+.order-card-title {
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.order-card-subtitle {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.order-card-button {
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 30px 50px 30px 50px;
+    background-color: rgba(254, 216, 76, 1);
+    border-radius: 8px;
+    max-width: 220px;
+    text-align: center;
+}
+
+.order-card-button:hover {
+    background: rgba(0,0,0,0);
+	box-shadow: inset 0 0 0 3px #f3ff52;
+    color: #f3ff52;
+}
+
+/* Order styles end */
+
+
+/* Questions styles start */
+
+.questions {
+    min-height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    margin-top: 50px;
+}
+
+.questions-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+}
+
+.questions-left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    max-width: 580px;
+}
+
+.questions-title {
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.questions-list {
+    max-width: 438px;
+}
+
+.questions-item {
+    font-weight: 400;
+    font-size: 18px;
+    list-style-type: disc;
+    margin-top: 30px;
+}
+
+.questions-item:first-child {
+    margin-top: 0;
+}
+
+.questions-button {
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 30px 50px 30px 50px;
+    background-color: rgba(254, 216, 76, 1);
+    text-align: center;
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+.yulia {
+    position: absolute;
+    top: 544px;
+    left: 868px;
+}
+
+/* Questions styles end */
+
+
+/* Feedbacks styles start */
+
+.feedbacks {
+    min-height: 1360px;
+    position: relative;
+    font-family: Montserrat;
+    background-color: rgba(8, 17, 48, 1);
+}
+
+.feedbacks-container {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.feedback-card {
+    max-width: 1180px;
+    max-height: 615px;
+    padding: 70px 140px 70px 140px;
+    background-color: rgba(255, 255, 255, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+}
+
+.feedback-card-left {
+    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.feedback-card-right {
+    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.feedback-card-title{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.feedback-card-text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.feedback-card-full{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(74, 148, 255, 1);
+    text-decoration: underline dotted;
+}
+
+.feedback-card-picture {
+    max-width: 380px;
+    border-radius: 50%;
+    border: 1px;
+}
+
+.feedback-name {
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.feedback-city {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(166, 174, 182, 1);
+}
+
+/* Feedbacks styles end */
+
+
+/* Examples styles start */
+
+.examples {
+    min-height: 1360px;
+    position: relative;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.examples-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    max-width: 90vw;
+}
+
+.examples-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.examples-subtitle {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.examples-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-top: 70px;
+}
+
+.examples-grid-picture {
+    max-width: 550px;
+}
+
+
+/* Examples styles end */
+
+/* Footer styles start */
+
+.footer {
+    position: relative;
+    min-height: 80vh;
+    background-color: rgba(8, 17, 48, 1);
+    font-family: Montserrat;
+}
+
+.footer-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-form {
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    max-width: 1180px;
+    max-height: 394px;
+    padding: 70px 99px 70px 99px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.footer-form-top {
+    text-align: center;
+}
+
+.footer-form-title {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.footer-form-subtitle {
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.footer-form-place {
+    position: relative;
+    margin-top: 30px;
+}
+
+#phone-num {
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 300px;
+    height: 45px;
+    max-width: 380px;
+    max-height: 85px;
+    padding: 10px;
+    padding-left: 50px;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgba(242, 246, 250, 1);
+    margin-right: 20px;
+}
+
+.footer-form-place button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(254, 216, 76, 1);
+    padding: 20px 60px 20px 60px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.form-agree {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#agreement {
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.footer-warnings {
+    margin-top: 50px;
+    max-width: 605px;
+    max-height: 58px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer-link {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(126, 134, 142, 1);
+}
+
+
+
+
+/* Footer styles end */
